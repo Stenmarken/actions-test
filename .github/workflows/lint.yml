@@ -17,7 +17,10 @@ jobs:
         linter: [cppcheck, xmllint]
     steps:
       - uses: ros-tooling/setup-ros@v0.3
-      #- uses: ros-tooling/action-ros-ci@v0.2
+        with:
+          package-name: test
+          target-ros1-distro: melodic
+      - uses: ros-tooling/action-ros-ci@v0.2
         with:
           package-name: test
           target-ros1-distro: melodic
