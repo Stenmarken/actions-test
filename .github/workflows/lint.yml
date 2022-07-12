@@ -7,16 +7,16 @@ on:
       - master
 
 jobs:
-  ament_lint_cpp:
+  catkin-build:
     name: IDK
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v1
       with:
-        path: ./cpp_template_pkg
+        path: $HOME/cpp_template_pkg
     - uses: betwo/github-setup-catkin@master
       with:
         ros-version: 'melodic'
         build-tool: 'catkin_tools'
-        workspace: cpp_template_pkg
+        workspace: $HOME/cpp_template_pkg
     - run: catkin build
