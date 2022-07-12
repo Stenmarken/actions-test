@@ -1,1 +1,0 @@
-/home/stenmarken3/Egna/actions-test/devel/.private/catkin_tools_prebuild/setup.bash
