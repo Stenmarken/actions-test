@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v1
+      with:
+        path: ./cpp_template_pkg
     - uses: betwo/github-setup-catkin@master
       with:
         ros-version: 'melodic'
