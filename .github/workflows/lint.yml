@@ -7,20 +7,14 @@ on:
       - master
 
 jobs:
-  # Note that we pass each job a different name to distinguish each linter job
   ament_lint_cpp:
-    name: ament_${{ matrix.linter }}
+    name: IDK
     runs-on: ubuntu-18.04
-    strategy:
-      fail-fast: false
-      matrix:
-        linter: [cppcheck, xmllint]
     steps:
-      - uses: ros-tooling/setup-ros@v0.3
-        with:
-          package-name: test
-          target-ros1-distro: melodic
-      - uses: ros-tooling/action-ros-ci@v0.2
-        with:
-          package-name: test
-          target-ros1-distro: melodic
+    - uses: actions/checkout@v1
+    - uses: betwo/github-setup-catkin@master
+      with:
+        ros-version: 'melodic'
+        build-tool: 'catkin_tools'
+        workspace: '$GITHUB_WORKSPACE'
+    - run: catkin build
