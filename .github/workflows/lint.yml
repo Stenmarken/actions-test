@@ -13,10 +13,10 @@ jobs:
     steps:
     - uses: actions/checkout@v1
       with:
-        path: $GITHUB_WORKSPACE/cpp_template_pkg
+        path: ./cpp_template_pkg
     - uses: betwo/github-setup-catkin@master
       with:
         ros-version: 'melodic'
         build-tool: 'catkin_tools'
-        workspace: $GITHUB_WORKSPACE/cpp_template_pkg
+        workspace: ./cpp_template_pkg
     - run: catkin build
