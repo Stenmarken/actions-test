@@ -16,5 +16,5 @@ jobs:
       with:
         ros-version: 'melodic'
         build-tool: 'catkin_tools'
-        workspace: ./testfolder
+        workspace: '$GITHUB_WORKSPACE'
     - run: catkin build
