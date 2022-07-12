@@ -1,6 +1,0 @@
-devel_space: /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel
-install: false
-install_space: /home/stenmarken3/Egna/actions-test/cpp_template_pkg/install
-profile: default
-source_space: /home/stenmarken3/Egna/actions-test/cpp_template_pkg/src
-workspace: /home/stenmarken3/Egna/actions-test/cpp_template_pkg
