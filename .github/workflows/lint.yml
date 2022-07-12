@@ -1,4 +1,4 @@
-name: Lint ROS2 package
+name: Test
 on:
   # Run this action whenever a pull request is made
   pull_request:
@@ -21,4 +21,4 @@ jobs:
       - uses: ros-tooling/action-ros2-lint@0.0.6
         with:
           linter: ${{ matrix.linter }}
-          package-name: cpp_template_pkg
+          package-name: test

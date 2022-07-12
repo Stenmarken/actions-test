@@ -1,0 +1,12 @@
+Symlinking /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/./env.sh
+Symlinking /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/./local_setup.zsh
+Symlinking /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/./cmake.lock
+Symlinking /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/./setup.bash
+Symlinking /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/./_setup_util.py
+Symlinking /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/./setup.sh
+Symlinking /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/./local_setup.bash
+Symlinking /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/./setup.zsh
+Symlinking /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/./local_setup.sh
+Symlinking /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/lib/pkgconfig/catkin_tools_prebuild.pc

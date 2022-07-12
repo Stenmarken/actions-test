@@ -1,0 +1,5 @@
+test
+/home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/.private/test/cmake.lock /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/./cmake.lock
+/home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/.private/test/share/test/cmake/testConfig-version.cmake /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/share/test/cmake/testConfig-version.cmake
+/home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/.private/test/share/test/cmake/testConfig.cmake /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/share/test/cmake/testConfig.cmake
+/home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/.private/test/lib/pkgconfig/test.pc /home/stenmarken3/Egna/actions-test/cpp_template_pkg/devel/lib/pkgconfig/test.pc
