@@ -1,0 +1,1 @@
+/home/stenmarken3/Egna/actions-test/devel/.private/example/lib/pkgconfig/example.pc
