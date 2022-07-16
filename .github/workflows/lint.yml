@@ -19,4 +19,4 @@ jobs:
         workspace: '$GITHUB_WORKSPACE'
     - run: | 
         catkin build
-    - run: roslaunch example test.launch
+        roslaunch example test.launch
