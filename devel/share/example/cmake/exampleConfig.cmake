@@ -1,1 +1,0 @@
-/home/stenmarken3/Egna/actions-test/devel/.private/example/share/example/cmake/exampleConfig.cmake
