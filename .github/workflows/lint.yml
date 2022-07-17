@@ -17,6 +17,4 @@ jobs:
         ros-version: 'melodic'
         build-tool: 'catkin_tools'
         workspace: '$GITHUB_WORKSPACE'
-    - run: | 
-        catkin build
-        roslaunch example test.launch
+    - run: roslaunch example test.launch
