@@ -5,7 +5,8 @@ import rospy
 def test_function():
     rospy.init_node("node")
     rate = rospy.Rate(1)
-    print("What's up")
+    for i in range(0,100):
+        print("What's up")
     rate.sleep()
     rospy.signal_shutdown("Finished")
     
