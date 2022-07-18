@@ -1,0 +1,5 @@
+example
+/home/stenmarken3/Egna/actions-test/venne/devel/.private/example/cmake.lock /home/stenmarken3/Egna/actions-test/venne/devel/./cmake.lock
+/home/stenmarken3/Egna/actions-test/venne/devel/.private/example/share/example/cmake/exampleConfig.cmake /home/stenmarken3/Egna/actions-test/venne/devel/share/example/cmake/exampleConfig.cmake
+/home/stenmarken3/Egna/actions-test/venne/devel/.private/example/share/example/cmake/exampleConfig-version.cmake /home/stenmarken3/Egna/actions-test/venne/devel/share/example/cmake/exampleConfig-version.cmake
+/home/stenmarken3/Egna/actions-test/venne/devel/.private/example/lib/pkgconfig/example.pc /home/stenmarken3/Egna/actions-test/venne/devel/lib/pkgconfig/example.pc
