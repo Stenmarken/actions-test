@@ -17,7 +17,7 @@ jobs:
         ros-version: 'melodic'
         build-tool: 'catkin_tools'
         workspace: $GITHUB_WORKSPACE/venne
-        working-directory: $GITHUB_WORKSPACE/venne  
+        working-directory: ./venne  
     - run: |
         catkin build
         source devel/setup.bash
