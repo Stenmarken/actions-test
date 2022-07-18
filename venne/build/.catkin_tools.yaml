@@ -1,6 +1,0 @@
-devel_space: /home/stenmarken3/Egna/actions-test/venne/devel
-install: false
-install_space: /home/stenmarken3/Egna/actions-test/venne/install
-profile: default
-source_space: /home/stenmarken3/Egna/actions-test/venne/src
-workspace: /home/stenmarken3/Egna/actions-test/venne
