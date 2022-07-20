@@ -22,7 +22,6 @@ jobs:
         cd venne
         mkdir src 
         mv example src
-        cd src
         catkin build
         source devel/setup.bash
         roslaunch example test.launch
