@@ -18,18 +18,6 @@ jobs:
         owner: 'Stenmarken'
         repository: 'test-action-ros-ci'
         access-token: ${{ secrets.ACCESS_TOKEN }}
-    - uses: betwo/github-setup-catkin@master
-      with:
-        ros-version: 'melodic'
-        build-tool: 'catkin_tools'
-        workspace: $GITHUB_WORKSPACE
-    - run: |
-        cd venne
-        mkdir src 
-        mv example src
-        catkin build
-        source devel/setup.bash
-        roslaunch example test.launch
         
     #- run: source devel/setup.bash
     #- run: roslaunch example test.launch
