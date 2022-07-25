@@ -13,6 +13,11 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v1
+    - uses: GuillaumeFalourd/clone-github-repo-action@v2
+      with: 
+        owner: 'Stenmarken'
+        repository: 'test-action-ros-ci'
+        access-token: ${{ secrets.ACCESS_TOKEN }}
     - uses: betwo/github-setup-catkin@master
       with:
         ros-version: 'melodic'
