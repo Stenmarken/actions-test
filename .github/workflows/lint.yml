@@ -25,6 +25,7 @@ jobs:
         catkin build
         source devel/setup.bash
         roslaunch example test.launch
+        
     #- run: source devel/setup.bash
     #- run: roslaunch example test.launch
     
